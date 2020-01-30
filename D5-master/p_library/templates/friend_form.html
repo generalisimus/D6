@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form class="friend" method="post">  
+	{% csrf_token %}  
+    {{ form.as_p }}
+	<input style="height: 25px;" type="submit" value="Сохранить">  
+</form>  
+
+{% endblock %}
+

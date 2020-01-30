@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Список авторов</title>
+</head>
+<body>
+	<table border=1>
+		{% for friend in object_list %}
+		    <tr>
+		    	<td>{{ friend.first_name }}</td>
+		    	<td> {{ friend.last_name }} </td>
+		    	<td>{{ friend.book }}</td>
+		    	<td> {{friend.date }} </td>
+		    </tr>
+		{% endfor %}
+	</table>
+</body>
+</html>

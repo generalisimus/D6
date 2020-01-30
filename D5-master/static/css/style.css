@@ -1,0 +1,23 @@
+.debtor {
+	display: flex;
+	justify-content: center;
+}
+.title {
+	background: #59F955;
+	display: flex;
+	justify-content: center;
+}
+.library {
+	display: flex;
+	justify-content: center;
+}
+#center {
+	display: flex;
+	justify-content: center;
+}
+
+.friend {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
